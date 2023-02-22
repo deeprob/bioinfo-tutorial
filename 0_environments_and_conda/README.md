@@ -23,7 +23,7 @@ Conda and miniconda come with many packages required for data analysis/data scie
 
 
 # Setting up Conda
-
+TODO: create a bash script to download and setup conda
 [Miniconda Download](https://docs.conda.io/en/latest/miniconda.html)
 
 After using the download above, you can verify that Conda is installed on your system by typing **$ conda info**
