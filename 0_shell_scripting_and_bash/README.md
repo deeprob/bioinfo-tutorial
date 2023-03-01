@@ -24,6 +24,8 @@ CONS:
 
 [TablePlus](https://tableplus.com/blog/2018/08/cli-vs-gui-which-one-is-better.html#:~:text=Advantages%20and%20disadvantages%20of%20CLI%20and%20GUI&text=So%20the%20CLI%20provides%20greater,to%20do%20with%20a%20GUI.&text=A%20GUI%20needs%20to%20use,than%20using%20the%20command%20line.)
 
+# CLI and the terminal
+
 # What is Bash?
 Bash is a CLI shell program used in many operating systems (Bash = Bourne Again Shell). It allows users to directly interact with their computer's operating system using the command line.
 
