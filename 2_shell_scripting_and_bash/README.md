@@ -89,6 +89,7 @@ $ echo "{message}"
 ## stdin, stdout and stderr
 stdin, stdout, and stderr are 3 types of data streams created when executing a command. They can be used to tell if a script is being piped or redirected. stdin is the standard input stream (input text). stdout is the text output from the command to the shell. Error output messages from the command are sent through the stderr (standard error) stream. 
 
+[How-To Geek](https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/)
 ## Writing and appending to a file (> and >>)
 Typing
 ```bash
