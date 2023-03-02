@@ -24,7 +24,7 @@ CONS:
 
 [TablePlus](https://tableplus.com/blog/2018/08/cli-vs-gui-which-one-is-better.html#:~:text=Advantages%20and%20disadvantages%20of%20CLI%20and%20GUI&text=So%20the%20CLI%20provides%20greater,to%20do%20with%20a%20GUI.&text=A%20GUI%20needs%20to%20use,than%20using%20the%20command%20line.)
 
-# CLI and the terminal
+# The terminal TODO
 
 # What is Bash?
 Bash is a CLI shell program used in many operating systems (Bash = Bourne Again Shell). It allows users to directly interact with their computer's operating system using the command line.
@@ -33,7 +33,9 @@ Bash allows users to carry out tasks efficiently - multiple operations can be ex
 
 [Codecademy](https://www.codecademy.com/resources/blog/what-is-bash-used-for/)
 
-# Some basic commands
+# Some basic commands to test using the terminal and Bash
+
+Open the terminal in MacOS and type the following commands:
 
 ## List files and sub-directories inside a directory (ls - command)
 
@@ -92,6 +94,7 @@ $ echo "{message}"
 stdin, stdout, and stderr are 3 types of data streams created when executing a command. They can be used to tell if a script is being piped or redirected. stdin is the standard input stream (input text). stdout is the text output from the command to the shell. Error output messages from the command are sent through the stderr (standard error) stream. 
 
 [How-To Geek](https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/)
+
 ## Writing and appending to a file (> and >>)
 Typing
 ```bash
@@ -104,6 +107,9 @@ Typing
 $ echo "{message}" > {file}
 ```
 overwrites anything within the existing {file} with the message, or creates a new file with the message if the {file} does not already exist.
+
+## Copying files from an external link (wget command) TODO
+Copy and save the files provided by this link: https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
 
 # Automating your commands using a script
 
@@ -150,6 +156,7 @@ test_output=$2
 echo $test_output >> $test_file
 ```
 
+# HOME and PWD variables
 
 
 
