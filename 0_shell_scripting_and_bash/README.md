@@ -24,7 +24,8 @@ CONS:
 
 [TablePlus](https://tableplus.com/blog/2018/08/cli-vs-gui-which-one-is-better.html#:~:text=Advantages%20and%20disadvantages%20of%20CLI%20and%20GUI&text=So%20the%20CLI%20provides%20greater,to%20do%20with%20a%20GUI.&text=A%20GUI%20needs%20to%20use,than%20using%20the%20command%20line.)
 
-# The terminal TODO
+# The terminal
+The terminal is a CLI that allows a user to directly interact with their computer's operating system. Standard input text entered by the user can execute a command/operation and produce standard output/standard error text in the terminal. 
 
 # What is Bash?
 Bash is a CLI shell program used in many operating systems (Bash = Bourne Again Shell). It allows users to directly interact with their computer's operating system using the command line.
@@ -108,8 +109,17 @@ $ echo "{message}" > {file}
 ```
 overwrites anything within the existing {file} with the message, or creates a new file with the message if the {file} does not already exist.
 
-## Copying files from an external link (wget command) TODO
-Copy and save the files provided by this link: https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+## Copying files from an external link (wget command)
+Within a src directory, type
+```bash
+$ wget {file-link}
+```
+to copy the file from the external link.
+
+**Task: Copy and save the files provided by this link: https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh**
+```bash
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh 
+```
 
 # Automating your commands using a script
 
@@ -147,7 +157,7 @@ touch ${file}
 ```
 assigns a variable (the file) to the first argument, then creates the file entered into the first argument when running the script in the command line. 
 
-**Task: Write a script that takes in a file path as first argument, and a string as second argument, creates a new file using the touch command in the specified filepath, and appends the string to that file.**
+**Task: Write a script (test.sh) that takes in a file path as first argument, and a string as second argument, creates a new file using the touch command in the specified filepath, and appends the string to that file.**
 ```bash
 test_file=$1 
 touch $test_file 
@@ -156,7 +166,20 @@ test_output=$2
 echo $test_output >> $test_file
 ```
 
+To execute this script, enter the src directory where the script resides and type
+```bash
+$ bash test.sh /path/to/data/{file} "{string}"
+```
+
 # HOME and PWD variables
+In the terminal, typing
+```bash
+$ echo $HOME
+```
+will output your home directory.
 
-
-
+Typing
+```bash
+$ echo $PWD
+```
+will output the absolute path to the directory you are currently in. 
