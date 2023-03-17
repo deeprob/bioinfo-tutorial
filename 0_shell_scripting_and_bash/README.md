@@ -84,7 +84,7 @@ $ touch test.txt
 ```
 
 ## Editing a file (nano - text editor)
-To edit the newly created blank file, we will use a defualt text editor named "nano". To use nano, type:
+To edit the newly created blank file, we will use a default text editor named "nano". To use nano, type:
 ```bash
 $ nano test.txt
 ```
