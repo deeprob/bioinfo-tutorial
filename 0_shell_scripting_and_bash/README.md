@@ -163,6 +163,7 @@ $ bash /path/to/{filename}.sh
 All file/directory locations can be specified wither using their absolute path or their relative path. The relative path of a file/directory is its path relative to the directory you are currently in. The absolute path is the path to the file/directory from the root directory. For example, if we created a file named test.sh inside the tutorial dir, then its relative path with respect to the tutorial dir will be "./test.sh" whereas it's absolute path will most probably be "/Users/{username}/tutorial/test.sh" depending on where you created the tutorial directory.
 
 **Task 1: Create a data dir inside tutorial dir**
+
 **Task 2: Write a script named test_with_absolute_path.sh that creates a newfile named test.txt inside the data dir using absolute path of the file and adds the line "This is a test file" to it**
 
 # Variables and arguments
